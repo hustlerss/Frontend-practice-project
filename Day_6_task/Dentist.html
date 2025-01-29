@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-direction: column;
+            font-family: sans-serif;
+            height: 80%;
+            width: 50%;
+        }
+
+        #be {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 11px;
+            background-color: #ddd;
+            margin-top: 5px;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: rgb(77, 182, 248);
+        }
+
+        .title-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div id="be">
+            <img src="/CSS/Day_6_task/smile.jpeg" alt="dental chechup image" height="80%" width="90%">
+        </div>
+        <div class="container2">
+            <div style="border-bottom: 4px solid rgb(77, 182, 248);">
+                <h1>About Us</h1>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, esse. Esse, deleniti, a quod odio
+                    labore quae, temporibus consectetur voluptate fugit consequatur id explicabo natus unde ratione
+                    aperiam exercitationem adipisci?
+                    sequi sit possimus, illum neque labore numquam suscipit consequatur eius obcaecati maiores aliquid,
+                    e.</p>
+            </div>
+            <div style="width: 100%;">
+                <div class="title-container">
+                    <h4>Experienced Dentist:</h4>
+                    <span>95%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <div class="title-container">
+                    <h4>Modern Equipment:</h4>
+                    <span>55%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%;"></div>
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <div class="title-container">
+                    <h4>Friendly Staff:</h4>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
